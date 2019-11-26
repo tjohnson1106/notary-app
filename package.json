@@ -1,0 +1,7 @@
+{
+  "name": "notary",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Thomas Johnson",
+  "license": "MIT"
+}
