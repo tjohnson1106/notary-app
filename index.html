@@ -18,6 +18,7 @@
       crossorigin="anonymous"
     />
   </head>
+
   <body>
     <!-- container -->
     <div class="container">
@@ -42,7 +43,56 @@
           </div>
         </div>
         <!-- Sidebar -->
-        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <!-- Search widget -->
+          <div class="card my-4">
+            <h5 class="card-header">
+              Search
+            </h5>
+            <div class="card-body">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="keyword"
+                  placeholder="Search for ..."
+                />
+                <span class="input-group-btn">
+                  <button class="btn btn-secondary" type="button">
+                    Search
+                  </button>
+                </span>
+              </div>
+            </div>
+
+            <div class="card-footer" id="searchstat"></div>
+          </div>
+
+          <!-- Select a book widget -->
+          <div class="card my-4">
+            <h5 class="card-header">
+              Select a book
+            </h5>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-12">
+                  <!-- undordered -->
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="#">Fake Book</a>
+                    </li>
+                    <li><a href="#">Still fake book</a></li>
+                    <li>
+                      <a href="">
+                        Lord of the Flies(Not a fake book)
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
