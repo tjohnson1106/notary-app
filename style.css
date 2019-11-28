@@ -21,3 +21,10 @@ img {
   widows: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.scroll-box {
+  overflow-y: auto;
+  height: 500px;
+  float: left;
+  padding: 1rem;
+}
